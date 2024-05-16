@@ -13,6 +13,7 @@ if (empty($title) || empty($desc)) {
 } else {
         $sql = "INSERT INTO `workspaces` (title_id, description) VALUES ('$title', '$desc')";
         if($conn -> query($sql) === TRUE) {
+            echo "Succesfull!";
         ?>
 
 <!DOCTYPE html>

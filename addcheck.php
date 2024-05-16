@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -37,14 +38,14 @@
         <button type="submit">Add</button>
     </form> -->
     <div class="container">
-        <form action="add.php" method="post">
+        <form action="" method="POST">
         <div class="form-group">
             <label for="exampleInputEmail1">Enter title</label>
             <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="title..." name="title_id">
         </div>
         <div class="form-group">
             <label for="exampleInputPassword1">Description</label>
-            <input type="text" class="form-control" id="exampleInputPassword1" placeholder="description" name="desc">
+            <input type="text" class="form-control" id="exampleInputPassword1" placeholder="description" name="description">
         </div>
         <button type="submit" class="btn btn-primary">Create workspace </button>
         </form>
